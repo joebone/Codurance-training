@@ -1,6 +1,4 @@
-﻿using Organizer = AirPNP.Core.Model.User.User;
-
-namespace AirPNP.Core.Model.Party;
+﻿namespace AirPNP.Core.Model.Party;
 public class PartyBookRequest {
 
     public string Title;

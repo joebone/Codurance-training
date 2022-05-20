@@ -1,12 +1,11 @@
 ﻿namespace AirPNP.Core.Actions;
-public class BookLocationForParty {
-    public BookLocationForParty(
-        PartyBookingService partyBookingService,
+public class ProvideLocationForParty {
+    public ProvideLocationForParty(
         UserAccountService userAccount,
-        LocationPriceCalculationService priceCalculationService) {
+        LocationService locationService
+        ) {
     }
 
-    public Party Execute(User user, PartyBookRequest partyBookRequest) {
-        throw new NotImplementedException();
+    public void Execute(User user, Location location, DateTime[] availableTimes, LocationRestrictions conditions) {
     }
 }

@@ -8,7 +8,11 @@ public record Location(
     //characteristics
     GeoLocation PartyLocation,
 
-    LocationCost CostPerHour
+    LocationCost CostPerHour,
+
+    LocationProvider owner,
+
+    LocationRestrictions restrictions
 );
 
 public record LocationCost(decimal? StaticFee, decimal? PricePerPerson);

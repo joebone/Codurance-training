@@ -4,5 +4,5 @@ public enum eUserType {
     None,
     LocationProvider,
     PartyOrganizer,
-    PartyGoer,
+    Attendee,
 }
